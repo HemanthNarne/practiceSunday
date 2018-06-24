@@ -12,20 +12,18 @@ import { HttpService } from '../http.service';
       <input type="text" class="form-control" id="inputEmail3" placeholder="Enter Make" ngModel name="Make">
     </div>
   </div>
-    <div class="form-row align-items-center">
-      <div class="col-auto my-1">
-        <label class="mr-sm-2" for="inlineFormCustomSelect">Model</label>
-        <select class="custom-select mr-sm-2" id="inlineFormCustomSelect" ngModel name="Model">
+    <div class="form-group row">
+        <label class="col-sm-3 col-form-label" for="inlineFormCustomSelect">Model</label>
+        <select class="custom-select col-sm-9" id="inlineFormCustomSelect" ngModel name="Model">
           <option value="Civic">Civic</option>
           <option value="Odyssey">Odyssey</option>
           <option value="Pilot">Pilot</option>
           <option value="Accord">Accord</option>
         </select>
-      </div>
     </div>
   <div class="form-group row">
     <label for="inputPassword3" class="col-sm-2 col-form-label">Year</label>
-    <div class="col-sm-5">
+    <div class="col-sm-10">
       <input type="number" class="form-control" id="inputPassword3" placeholder="Year" ngModel name="Year">
     </div>
   </div>
@@ -50,8 +48,8 @@ import { HttpService } from '../http.service';
       </div>
     </div>
   </fieldset>
-  <div class="form-group row">
-    <div class="col-sm-10">
+  <div class="form-group">
+    <div class="button1">
       <button type="submit" class="btn btn-primary">next</button>
     </div>
   </div>
