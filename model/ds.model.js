@@ -9,7 +9,7 @@ var userSchema =mongoose.Schema({
     Model :String,
     Year : Number,
     Type : String,
-    Features : String
+    features : [String]
 });
 
  
